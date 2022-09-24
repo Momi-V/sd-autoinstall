@@ -4,7 +4,7 @@ dnf upgrade -y && dnf autoremove -y
 dnf install -y xorg-x11-drivers libSM
 ```
 ```
-wget https://github.com/cmdr2/stable-diffusion-ui/releases/download/v2.05/stable-diffusion-ui-linux.tar.xz
+wget https://github.com/cmdr2/stable-diffusion-ui/releases/download/v2.16/stable-diffusion-ui-linux.tar.xz
 tar -xJvf stable-diffusion-ui-linux.tar.xz
 cd stable-diffusion-ui
 ```
