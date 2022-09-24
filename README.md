@@ -16,13 +16,16 @@ systemctl reload firewalld
 VAR=$(cat <<'EOL'
 logging.set_verbosity_error()
 
-torch.set_num_threads(20)
+import multiprocessing
+cpu_count = multiprocessing.cpu_count()
 
-os.environ["OMP_NUM_THREADS"] = "20"
-os.environ["OPENBLAS_NUM_THREADS"] = "20"
-os.environ["MKL_NUM_THREADS"] = "20"
-os.environ["VECLIB_MAXIMUM_THREADS"] = "20"
-os.environ["NUMEXPR_NUM_THREADS"] = "20"
+torch.set_num_threads(cpu_count)
+
+os.environ["OMP_NUM_THREADS"] = cpu_count
+os.environ["OPENBLAS_NUM_THREADS"] = cpu_count
+os.environ["MKL_NUM_THREADS"] = cpu_count
+os.environ["VECLIB_MAXIMUM_THREADS"] = cpu_count
+os.environ["NUMEXPR_NUM_THREADS"] = cpu_count
 EOL
 )
 VAR=$(VAR=${VAR@Q}; echo "${VAR:2:-1}")
