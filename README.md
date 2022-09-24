@@ -4,13 +4,13 @@ dnf upgrade -y && dnf autoremove -y
 dnf install -y xorg-x11-drivers libSM
 ```
 ```
+firewall-cmd --permanent --add-port=9000/tcp
+systemctl reload firewalld
+```
+```
 wget https://github.com/cmdr2/stable-diffusion-ui/releases/download/v2.16/stable-diffusion-ui-linux.tar.xz
 tar -xJvf stable-diffusion-ui-linux.tar.xz
 cd stable-diffusion-ui
-```
-```
-firewall-cmd --permanent --add-port=9000/tcp
-systemctl reload firewalld
 ```
 ```
 VAR=$(cat <<'EOL'
@@ -20,6 +20,8 @@ import multiprocessing
 cpu_count = multiprocessing.cpu_count()
 
 torch.set_num_threads(cpu_count)
+
+cpu_count = str(cpu_count)
 
 os.environ["OMP_NUM_THREADS"] = cpu_count
 os.environ["OPENBLAS_NUM_THREADS"] = cpu_count
