@@ -20,6 +20,7 @@ import multiprocessing
 cpu_count = multiprocessing.cpu_count()
 
 torch.set_num_threads(cpu_count)
+torch.set_num_interop_threads(cpu_count)
 
 cpu_count = str(cpu_count)
 
