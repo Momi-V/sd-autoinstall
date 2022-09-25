@@ -34,6 +34,6 @@ EOL
 VAR=$(VAR=${VAR@Q}; echo "${VAR:2:-1}")
 ```
 ```
-sed -i "s+logging.set_verbosity_error()+VAR+g" ./ui/sd_internal/runtime.py
+sed -i "s+logging.set_verbosity_error()+$VAR+g" ./ui/sd_internal/runtime.py
 cat ./ui/sd_internal/runtime.py
 ```
