@@ -1,1 +1,7 @@
+cpu_count = str(cpu_count)
 
+os.environ["OMP_NUM_THREADS"] = cpu_count
+os.environ["OPENBLAS_NUM_THREADS"] = cpu_count
+os.environ["MKL_NUM_THREADS"] = cpu_count
+os.environ["VECLIB_MAXIMUM_THREADS"] = cpu_count
+os.environ["NUMEXPR_NUM_THREADS"] = cpu_count
