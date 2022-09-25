@@ -21,14 +21,6 @@ cpu_count = multiprocessing.cpu_count()
 
 torch.set_num_threads(cpu_count)
 torch.set_num_interop_threads(cpu_count)
-
-cpu_count = str(cpu_count)
-
-os.environ["OMP_NUM_THREADS"] = cpu_count
-os.environ["OPENBLAS_NUM_THREADS"] = cpu_count
-os.environ["MKL_NUM_THREADS"] = cpu_count
-os.environ["VECLIB_MAXIMUM_THREADS"] = cpu_count
-os.environ["NUMEXPR_NUM_THREADS"] = cpu_count
 EOL
 )
 VAR=$(VAR=${VAR@Q}; echo "${VAR:2:-1}")
