@@ -1,7 +1,7 @@
 # sd-autoinstall
 ```
 dnf install -y xorg-x11-drivers libSM #Fedora
-zypper in -y libXrender-devel
+zypper in -y libXrender-devel #openSUSE
 ```
 ```
 firewall-cmd --permanent --add-port=9000/tcp
