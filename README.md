@@ -1,15 +1,15 @@
 # sd-autoinstall
 ```
-dnf upgrade -y && dnf autoremove -y
-dnf install -y xorg-x11-drivers libSM
+dnf install -y xorg-x11-drivers libSM #Fedora
+zypper in -y libXrender-devel
 ```
 ```
 firewall-cmd --permanent --add-port=9000/tcp
 systemctl reload firewalld
 ```
 ```
-wget https://github.com/cmdr2/stable-diffusion-ui/releases/download/v2.16/stable-diffusion-ui-linux.tar.xz
-tar -xJvf stable-diffusion-ui-linux.tar.xz
+wget https://github.com/cmdr2/stable-diffusion-ui/releases/download/v2.3.5/stable-diffusion-ui-linux.zip
+unzip stable-diffusion-ui-linux.zip
 cd stable-diffusion-ui
 ```
 ```
