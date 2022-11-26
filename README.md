@@ -1,6 +1,7 @@
 ## cmdr2
 ```
-zypper in -y libgthread-2_0-0
+dnf install -y xorg-x11-drivers libSM #Fedora
+zypper in -y libgthread-2_0-0 #openSUSE
 wget https://github.com/cmdr2/stable-diffusion-ui/releases/download/v2.4.13/stable-diffusion-ui-linux.zip
 unzip stable-diffusion-ui-linux.zip
 ./stable-diffusion-ui/start.sh
