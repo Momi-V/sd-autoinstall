@@ -16,5 +16,9 @@ systemctl restart firewalld
 ```
 zypper in -y libgthread-2_0-0
 zypper in -y wget git python3
-bash <(wget -qO- https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh) --use-cpu all --no-half --skip-torch-cuda-test
+git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
+cd stable-diffusion-webui
+#wget https://drive.yerf.org/wl/?id=EBfTrmcCCUAGaQBXVIj5lJmEhjoP1tgl&mode=grid&download=1
+#mv sd-v1-4.ckpt models/Stable-diffusion/
+./webui.sh --use-cpu all --no-half --skip-torch-cuda-test
 ```
