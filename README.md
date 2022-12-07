@@ -31,5 +31,5 @@ mv sd-v1-4.ckpt models/Stable-diffusion/
 #wget https://raw.githubusercontent.com/Stability-AI/stablediffusion/main/configs/stable-diffusion/v2-inference-v.yaml
 #mv v2-inference-v.yaml models/Stable-diffusion/768-v-ema.yaml
 
-./webui.sh --use-cpu all --no-half --skip-torch-cuda-test
+./webui.sh --use-cpu all --no-half --skip-torch-cuda-test --listen
 ```
