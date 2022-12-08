@@ -1,6 +1,7 @@
 ## cmdr2
 ```
 zypper in -y libgthread-2_0-0
+zypper in -y libgthread-2_0-0 wget tar bzip2 which nano #container
 
 firewall-cmd --permanent --new-service diffusion
 firewall-cmd --permanent --service diffusion --add-port 9000/tcp
