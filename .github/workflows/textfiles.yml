@@ -27,7 +27,7 @@ jobs:
           rm -rf inspiration
           mkdir inspiration
           cd inspiration
-          VAR="$(wget -qO- http://example.com)"
+          VAR="$(wget -qO- https://github.com/cmdr2/stable-diffusion-ui/raw/main/ui/modifiers.json)"
           IFS=$'\n'
           for c in $(echo "$VAR" | jq '.[].category'); do
             { echo "$VAR" | jq ".[] | select (.category==$c).modifiers[].modifier"; } > "$c".txt
