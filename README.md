@@ -34,3 +34,12 @@ mv sd-v1-4.ckpt models/Stable-diffusion/
 
 ./webui.sh --use-cpu all --no-half --skip-torch-cuda-test --listen
 ```
+
+### Inspiration
+```
+VAR="$(wget -qO- http://example.com)"
+IFS=$'\n'
+for c in $(echo "$VAR" | jq '.[].category'); do
+  { echo "$VAR" | jq ".[] | select (.category==$c).modifiers[].modifier" } > "$c".txt
+done
+```
