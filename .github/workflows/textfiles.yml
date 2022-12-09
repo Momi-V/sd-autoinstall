@@ -26,6 +26,7 @@ jobs:
         run: |
           rm -rf inspiration
           mkdir inspiration
+          cd inspiration
           VAR="$(wget -qO- http://example.com)"
           IFS=$'\n'
           for c in $(echo "$VAR" | jq '.[].category'); do
