@@ -37,6 +37,11 @@ mv sd-v1-4.ckpt models/Stable-diffusion/
 
 ### Inspiration
 ```
+cd extensions
+git clone https://github.com/yfszzx/stable-diffusion-webui-inspiration
+cd ..
+```
+```
 VAR="$(wget -qO- http://example.com)"
 IFS=$'\n'
 for c in $(echo "$VAR" | jq '.[].category'); do
