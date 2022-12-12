@@ -42,9 +42,9 @@ git clone https://github.com/yfszzx/stable-diffusion-webui-inspiration
 cd ..
 ```
 ```
-VAR="$(wget -qO- http://example.com)"
+VAR="$(wget -qO- https://github.com/cmdr2/stable-diffusion-ui/raw/main/ui/modifiers.json)"
 IFS=$'\n'
 for c in $(echo "$VAR" | jq '.[].category'); do
-  { echo "$VAR" | jq ".[] | select (.category==$c).modifiers[].modifier" } > "$c".txt
+  { echo "$VAR" | jq ".[] | select (.category==$c).modifiers[].modifier" | sed 's+"++g'; } > "$(echo $c | sed 's+"++g')".txt
 done
 ```
