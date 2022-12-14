@@ -45,16 +45,18 @@ cd extensions
 git clone https://github.com/yfszzx/stable-diffusion-webui-inspiration
 cd ..
 ```
+
+```
+IFS=$'\n'
+for i in $(cat extensions/stable-diffusion-webui-inspiration/scripts/inspiration.py | grep "switch_to_.*2img"); do
+sed -i "s+$i+#$i+g" extensions/stable-diffusion-webui-inspiration/scripts/inspiration.py
+done
+```
+
 ```
 VAR="$(wget -qO- https://github.com/cmdr2/stable-diffusion-ui/raw/main/ui/modifiers.json)"
 IFS=$'\n'
 for c in $(echo "$VAR" | jq '.[].category'); do
   { echo "$VAR" | jq ".[] | select (.category==$c).modifiers[].modifier" | sed 's+"++g'; } > "$(echo $c | sed 's+"++g')".txt
-done
-```
-```
-IFS=$'\n'
-for i in $(cat extensions/stable-diffusion-webui-inspiration/scripts/inspiration.py | grep "switch_to_.*2img"); do
-sed -i "s+$i+#$i+g" extensions/stable-diffusion-webui-inspiration/scripts/inspiration.py
 done
 ```
