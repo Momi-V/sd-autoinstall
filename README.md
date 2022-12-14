@@ -28,7 +28,7 @@ cd stable-diffusion-webui
 
 wget https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/resolve/main/sd-v1-4.ckpt
 mv sd-v1-4.ckpt models/Stable-diffusion/
-wget https://huggingface.co/stabilityai/sd-vae-ft-mse-original/blob/main/vae-ft-mse-840000-ema-pruned.ckpt
+wget https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt
 mv vae-ft-mse-840000-ema-pruned.ckpt models/VAE/
 
 #wget https://huggingface.co/stabilityai/stable-diffusion-2/resolve/main/768-v-ema.ckpt
