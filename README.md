@@ -39,9 +39,10 @@ mv vae-ft-mse-840000-ema-pruned.ckpt models/VAE/
 ./webui.sh --use-cpu all --no-half --skip-torch-cuda-test --listen
 ```
 
-### Inspiration
+### Inspiration & Gallery
 ```
 cd extensions
+git clone https://github.com/yfszzx/stable-diffusion-webui-images-browser
 git clone https://github.com/yfszzx/stable-diffusion-webui-inspiration
 cd ..
 ```
