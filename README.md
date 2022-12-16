@@ -43,17 +43,15 @@ mv vae-ft-mse-840000-ema-pruned.ckpt models/VAE/
 ```
 cd extensions
 git clone https://github.com/yfszzx/stable-diffusion-webui-images-browser
-git clone https://github.com/yfszzx/stable-diffusion-webui-inspiration
+git clone https://github.com/HPPinata/stable-diffusion-webui-inspiration
 cd ..
 ```
-
 ```
 IFS=$'\n'
 for i in $(cat extensions/stable-diffusion-webui-inspiration/scripts/inspiration.py | grep "switch_to_.*2img"); do
 sed -i "s+$i+#$i+g" extensions/stable-diffusion-webui-inspiration/scripts/inspiration.py
 done
 ```
-
 ```
 VAR="$(wget -qO- https://github.com/cmdr2/stable-diffusion-ui/raw/main/ui/modifiers.json)"
 IFS=$'\n'
