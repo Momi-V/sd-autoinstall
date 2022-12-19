@@ -17,6 +17,7 @@ unzip stable-diffusion-ui-linux.zip
 ```
 zypper in -y libgthread-2_0-0
 zypper in -y wget git python3
+zypper in -y Mesa #WSL
 
 firewall-cmd --permanent --new-service diffusion
 firewall-cmd --permanent --service diffusion --add-port 7860/tcp
