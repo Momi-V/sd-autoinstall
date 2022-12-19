@@ -28,7 +28,7 @@ git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
 cd stable-diffusion-webui
 
 wget https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt
-mv sd-v1-4.ckpt models/Stable-diffusion/
+mv v1-5-pruned-emaonly.ckpt models/Stable-diffusion/
 wget https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt
 mv vae-ft-mse-840000-ema-pruned.ckpt models/VAE/
 
