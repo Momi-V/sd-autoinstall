@@ -51,16 +51,16 @@ cd stable-diffusion-webui
 ### Download:
 ```
 wget https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt
-mv v1-5-pruned-emaonly.ckpt models/Stable-diffusion/
 wget https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt
+mv v1-5-pruned-emaonly.ckpt models/Stable-diffusion/
 mv vae-ft-mse-840000-ema-pruned.ckpt models/VAE/
 ```
 
 #### Download_Alt:
 ```
 #wget https://huggingface.co/stabilityai/stable-diffusion-2/resolve/main/768-v-ema.ckpt
-#mv 768-v-ema.ckpt models/Stable-diffusion/
 #wget https://raw.githubusercontent.com/Stability-AI/stablediffusion/main/configs/stable-diffusion/v2-inference-v.yaml
+#mv 768-v-ema.ckpt models/Stable-diffusion/
 #mv v2-inference-v.yaml models/Stable-diffusion/768-v-ema.yaml
 ```
 
