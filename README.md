@@ -74,7 +74,7 @@ screen -dmS server ./webui.sh --use-cpu all --no-half --skip-torch-cuda-test --l
 ### Repository:
 ```
 cd extensions
-git clone https://github.com/yfszzx/stable-diffusion-webui-images-browser
+git clone https://github.com/AlUlkesh/stable-diffusion-webui-images-browser
 git clone https://github.com/HPPinata/stable-diffusion-webui-inspiration
 cd ..
 ```
