@@ -29,17 +29,43 @@ unzip stable-diffusion-ui-linux.zip
 
 ### Dependencies:
 ```
-zypper in -y libgthread-2_0-0
 zypper in -y wget git python3
+zypper in -y libgthread-2_0-0
+zypper in -y caddy
 zypper in -y Mesa #WSL
 ```
 
 ### Firewall:
 ```
-firewall-cmd --permanent --new-service diffusion
-firewall-cmd --permanent --service diffusion --add-port 7860/tcp
-firewall-cmd --permanent --add-service diffusion
+firewall-cmd --permanent --add-service=ssh --add-service=http --add-service=https
 systemctl restart firewalld
+```
+
+### Proxy:
+```
+uname=user
+phash=$(caddy hash-password --plaintext password)
+hname=diffusion
+domain=diffusion.local
+```
+```
+systemctl enable --now caddy
+
+cat <<"EOL" > /etc/caddy/Caddyfile
+{
+  local_certs
+}
+
+$hname, $domain {
+  basicauth * {
+    $uname $phash
+  }
+  reverse_proxy localhost:7860
+}
+EOL
+cat /etc/caddy/Caddyfile
+
+systemctl restart caddy
 ```
 
 ### Repository:
