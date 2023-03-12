@@ -52,7 +52,7 @@ domain=diffusion.local
 ```
 systemctl enable --now caddy
 
-cat <<"EOL" > /etc/caddy/Caddyfile
+cat <<EOL > /etc/caddy/Caddyfile
 {
   local_certs
 }
