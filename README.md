@@ -44,6 +44,7 @@ systemctl restart firewalld
 ### Proxy:
 ```
 uname=user
+set +H
 phash=$(caddy hash-password --plaintext password)
 hname=diffusion
 domain=diffusion.local
