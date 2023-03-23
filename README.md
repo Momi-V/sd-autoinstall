@@ -94,7 +94,8 @@ mv vae-ft-mse-840000-ema-pruned.ckpt models/VAE/
 ### Start:
 ```
 cd ..
-screen -dmS server ./stable-diffusion-webui/webui.sh --use-cpu all --no-half --skip-torch-cuda-test --listen
+screen -dmS server ./stable-diffusion-webui/webui.sh --use-cpu all --no-half --skip-torch-cuda-test
+screen -dmS server ./stable-diffusion-webui/webui.sh
 ```
 
 ## Inspiration & Gallery
