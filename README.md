@@ -1,5 +1,4 @@
 # cmdr2
-
 ### Dependencies:
 ```
 zypper in -y libgthread-2_0-0
@@ -26,7 +25,6 @@ unzip stable-diffusion-ui-linux.zip
 ```
 
 # 1111
-
 ### Dependencies:
 ```
 zypper in -y wget git python3
@@ -91,29 +89,20 @@ mv vae-ft-mse-840000-ema-pruned.ckpt models/VAE/
 #mv v2-inference-v.yaml models/Stable-diffusion/768-v-ema.yaml
 ```
 
+### Extensions:
+```
+cd extensions
+git clone https://github.com/AlUlkesh/stable-diffusion-webui-images-browser.git
+git clone https://github.com/HPPinata/stable-diffusion-webui-inspiration.git
+git clone https://github.com/Gerschel/sd_web_ui_preset_utils.git
+cd ..
+```
+
 ### Start:
 ```
 cd ..
-screen -dmS server ./stable-diffusion-webui/webui.sh --use-cpu all --no-half --skip-torch-cuda-test
+#screen -dmS server ./stable-diffusion-webui/webui.sh --use-cpu all --no-half --skip-torch-cuda-test
 screen -dmS server ./stable-diffusion-webui/webui.sh
-```
-
-## Inspiration & Gallery
-
-### Repository:
-```
-cd extensions
-git clone https://github.com/AlUlkesh/stable-diffusion-webui-images-browser
-git clone https://github.com/HPPinata/stable-diffusion-webui-inspiration
-cd ..
-```
-
-### Changes:
-```
-IFS=$'\n'
-for i in $(cat extensions/stable-diffusion-webui-inspiration/scripts/inspiration.py | grep "switch_to_.*2img"); do
-sed -i "s+$i+#$i+g" extensions/stable-diffusion-webui-inspiration/scripts/inspiration.py
-done
 ```
 
 ### Get_Modifiers:
