@@ -1,29 +1,3 @@
-# cmdr2
-### Dependencies:
-```
-zypper in -y libgthread-2_0-0
-zypper in -y libgthread-2_0-0 wget unzip tar bzip2 which nano #container
-```
-
-### Firewall:
-```
-firewall-cmd --permanent --new-service diffusion
-firewall-cmd --permanent --service diffusion --add-port 9000/tcp
-firewall-cmd --permanent --add-service diffusion
-systemctl restart firewalld
-```
-
-### Repository:
-```
-wget https://github.com/cmdr2/stable-diffusion-ui/releases/download/v2.4.13/stable-diffusion-ui-linux.zip
-unzip stable-diffusion-ui-linux.zip
-```
-
-### Start:
-```
-./stable-diffusion-ui/start.sh
-```
-
 # 1111
 ### Dependencies:
 ```
@@ -83,10 +57,10 @@ mv vae-ft-mse-840000-ema-pruned.ckpt models/VAE/
 
 #### Download_Alt:
 ```
-#wget https://huggingface.co/stabilityai/stable-diffusion-2/resolve/main/768-v-ema.ckpt
+#wget https://huggingface.co/stabilityai/stable-diffusion-2-1/blob/main/v2-1_768-ema-pruned.safetensors
 #wget https://raw.githubusercontent.com/Stability-AI/stablediffusion/main/configs/stable-diffusion/v2-inference-v.yaml
-#mv 768-v-ema.ckpt models/Stable-diffusion/
-#mv v2-inference-v.yaml models/Stable-diffusion/768-v-ema.yaml
+#mv v2-1_768-ema-pruned.safetensors models/Stable-diffusion/
+#mv v2-inference-v.yaml models/Stable-diffusion/v2-1_768-ema-pruned.yaml
 ```
 
 ### Extensions:
