@@ -1,10 +1,12 @@
 # 1111
+
+Install on OpenSUSE-Tumbleweed
 ### Dependencies:
 ```
-zypper in -y wget git python3
+zypper in -y wget git python310
 zypper in -y libgthread-2_0-0
 zypper in -y caddy
-zypper in -y Mesa #WSL
+zypper in -y Mesa
 ```
 
 ### Firewall:
@@ -43,8 +45,9 @@ systemctl restart caddy
 
 ### Repository:
 ```
-git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
-cd stable-diffusion-webui
+#git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git automatic
+git clone https://github.com/vladmandic/automatic automatic
+cd automatic
 ```
 
 ### Download:
@@ -66,17 +69,16 @@ mv vae-ft-mse-840000-ema-pruned.ckpt models/VAE/
 ### Extensions:
 ```
 cd extensions
-git clone https://github.com/AlUlkesh/stable-diffusion-webui-images-browser.git
+#git clone https://github.com/AlUlkesh/stable-diffusion-webui-images-browser.git #included in vladmandic
 git clone https://github.com/HPPinata/stable-diffusion-webui-inspiration.git
-git clone https://github.com/Gerschel/sd_web_ui_preset_utils.git
+#git clone https://github.com/Gerschel/sd_web_ui_preset_utils.git #unnecessary
 cd ..
 ```
 
 ### Start:
 ```
-cd ..
-#screen -dmS server ./stable-diffusion-webui/webui.sh --use-cpu all --no-half --skip-torch-cuda-test
-screen -dmS server ./stable-diffusion-webui/webui.sh
+#screen -dmS server python_cmd=python3.10 ./webui.sh --use-cpu all --no-half --skip-torch-cuda-test #no GPU Version
+screen -dmS server python_cmd=python3.10 ./webui.sh
 ```
 
 ### Get_Modifiers:
