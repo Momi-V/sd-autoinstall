@@ -54,6 +54,8 @@ cd automatic
 ```
 wget https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt
 wget https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt
+mkdir models/Stable-diffusion/
+mkdir models/VAE/
 mv v1-5-pruned-emaonly.ckpt models/Stable-diffusion/
 mv vae-ft-mse-840000-ema-pruned.ckpt models/VAE/
 ```
