@@ -82,8 +82,9 @@ cd ..
 
 ### Start:
 ```
-#screen -dmS server python_cmd=python3.10 ./webui.sh --use-cpu all --no-half --skip-torch-cuda-test #no GPU Version
-screen -dmS server python_cmd=python3.10 ./webui.sh
+cd ..
+#screen -dmS server bash -c 'python_cmd=python3.10 ./automatic/webui.sh --use-cpu all --no-half --skip-torch-cuda-test' #no GPU Version
+screen -dmS server bash -c 'python_cmd=python3.10 ./automatic/webui.sh'
 ```
 
 ### Get_Modifiers:
