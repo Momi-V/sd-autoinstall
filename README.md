@@ -1,6 +1,8 @@
 # 1111
 
 Install on OpenSUSE-Tumbleweed
+
+## As root:
 ### Dependencies:
 ```
 zypper in -y wget git python310
@@ -43,6 +45,7 @@ cat /etc/caddy/Caddyfile
 systemctl restart caddy
 ```
 
+## As user:
 ### Repository:
 ```
 #git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git automatic
