@@ -30,14 +30,15 @@ jobs:
           VAR="$(wget -qO- https://github.com/cmdr2/stable-diffusion-ui/raw/main/ui/modifiers.json)"
           IFS=$'\n'
           for c in $(echo "$VAR" | jq '.[].category'); do
-            word=$({ echo "$VAR" | jq ".[] | select (.category==$c).modifiers[].modifier" | sed 's+"++g'; })
-            category=$("$(echo $c | sed 's+"++g')")
+            word=$(echo "$VAR" | jq ".[] | select (.category==$c).modifiers[].modifier" | sed 's+"++g')
+            category="$(echo $c | sed 's+"++g')"
             echo "$word" > "$file.txt"
             echo "$category" >> tags.yaml
             echo "  '':" >> tags.yaml
             for i in "$(cat $category.txt)"; do
               echo "    $word" >> tags.yaml
-              echo "value: $word" >> tags.yaml              
+              echo "value: $word" >> tags.yaml
+            done
           done
 
       # Commits updated scripts
