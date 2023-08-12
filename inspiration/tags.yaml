@@ -1,432 +1,442 @@
 Drawing Style
   '':
     Cel Shading
-Children's Drawing
-Crosshatch
-Detailed and Intricate
-Doodle
-Dot Art
-Line Art
-Sketch
 value: Cel Shading
-Children's Drawing
-Crosshatch
-Detailed and Intricate
-Doodle
-Dot Art
-Line Art
-Sketch
+    Children's Drawing
+value: Children's Drawing
+    Crosshatch
+value: Crosshatch
+    Detailed and Intricate
+value: Detailed and Intricate
+    Doodle
+value: Doodle
+    Dot Art
+value: Dot Art
+    Line Art
+value: Line Art
+    Sketch
+value: Sketch
+
 Visual Style
   '':
     2D
-8-Bit
-16-Bit
-Anaglyph
-Anime
-Art Nouveau
-Bauhaus
-Baroque
-CGI
-Cartoon
-Comic Book
-Concept Art
-Constructivist
-Cubist
-Digital Art
-Dadaist
-Expressionist
-Fantasy
-Fauvist
-Figurative
-Graphic Novel
-Geometric
-Hard Edge Painting
-Hydrodipped
-Impressionistic
-Lithography
-Manga
-Minimalist
-Modern Art
-Mosaic
-Mural
-Naive
-Neoclassical
-Photo
-Realistic
-Rococo
-Romantic
-Street Art
-Symbolist
-Stuckist
-Surrealist
-Visual Novel
-Watercolor
 value: 2D
-8-Bit
-16-Bit
-Anaglyph
-Anime
-Art Nouveau
-Bauhaus
-Baroque
-CGI
-Cartoon
-Comic Book
-Concept Art
-Constructivist
-Cubist
-Digital Art
-Dadaist
-Expressionist
-Fantasy
-Fauvist
-Figurative
-Graphic Novel
-Geometric
-Hard Edge Painting
-Hydrodipped
-Impressionistic
-Lithography
-Manga
-Minimalist
-Modern Art
-Mosaic
-Mural
-Naive
-Neoclassical
-Photo
-Realistic
-Rococo
-Romantic
-Street Art
-Symbolist
-Stuckist
-Surrealist
-Visual Novel
-Watercolor
+    8-Bit
+value: 8-Bit
+    16-Bit
+value: 16-Bit
+    Anaglyph
+value: Anaglyph
+    Anime
+value: Anime
+    Art Nouveau
+value: Art Nouveau
+    Bauhaus
+value: Bauhaus
+    Baroque
+value: Baroque
+    CGI
+value: CGI
+    Cartoon
+value: Cartoon
+    Comic Book
+value: Comic Book
+    Concept Art
+value: Concept Art
+    Constructivist
+value: Constructivist
+    Cubist
+value: Cubist
+    Digital Art
+value: Digital Art
+    Dadaist
+value: Dadaist
+    Expressionist
+value: Expressionist
+    Fantasy
+value: Fantasy
+    Fauvist
+value: Fauvist
+    Figurative
+value: Figurative
+    Graphic Novel
+value: Graphic Novel
+    Geometric
+value: Geometric
+    Hard Edge Painting
+value: Hard Edge Painting
+    Hydrodipped
+value: Hydrodipped
+    Impressionistic
+value: Impressionistic
+    Lithography
+value: Lithography
+    Manga
+value: Manga
+    Minimalist
+value: Minimalist
+    Modern Art
+value: Modern Art
+    Mosaic
+value: Mosaic
+    Mural
+value: Mural
+    Naive
+value: Naive
+    Neoclassical
+value: Neoclassical
+    Photo
+value: Photo
+    Realistic
+value: Realistic
+    Rococo
+value: Rococo
+    Romantic
+value: Romantic
+    Street Art
+value: Street Art
+    Symbolist
+value: Symbolist
+    Stuckist
+value: Stuckist
+    Surrealist
+value: Surrealist
+    Visual Novel
+value: Visual Novel
+    Watercolor
+value: Watercolor
+
 Pen
   '':
     Chalk
-Colored Pencil
-Graphite
-Ink
-Oil Paint
-Pastel Art
 value: Chalk
-Colored Pencil
-Graphite
-Ink
-Oil Paint
-Pastel Art
+    Colored Pencil
+value: Colored Pencil
+    Graphite
+value: Graphite
+    Ink
+value: Ink
+    Oil Paint
+value: Oil Paint
+    Pastel Art
+value: Pastel Art
+
 Carving and Etching
   '':
     etching
-Linocut
-Paper Model
-Paper-Mache
-Papercutting
-Pyrography
-Wood-Carving
 value: etching
-Linocut
-Paper Model
-Paper-Mache
-Papercutting
-Pyrography
-Wood-Carving
+    Linocut
+value: Linocut
+    Paper Model
+value: Paper Model
+    Paper-Mache
+value: Paper-Mache
+    Papercutting
+value: Papercutting
+    Pyrography
+value: Pyrography
+    Wood-Carving
+value: Wood-Carving
+
 Camera
   '':
     Aerial View
-Canon50
-Cinematic
-Close-up
-Color Grading
-Dramatic
-Film Grain
-Fisheye Lens
-Glamor Shot
-Golden Hour
-HD
-Landscape
-Lens Flare
-Macro
-Polaroid
-Photoshoot
-Portrait
-Studio Lighting
-Vintage
-War Photography
-White Balance
-Wildlife Photography
 value: Aerial View
-Canon50
-Cinematic
-Close-up
-Color Grading
-Dramatic
-Film Grain
-Fisheye Lens
-Glamor Shot
-Golden Hour
-HD
-Landscape
-Lens Flare
-Macro
-Polaroid
-Photoshoot
-Portrait
-Studio Lighting
-Vintage
-War Photography
-White Balance
-Wildlife Photography
+    Canon50
+value: Canon50
+    Cinematic
+value: Cinematic
+    Close-up
+value: Close-up
+    Color Grading
+value: Color Grading
+    Dramatic
+value: Dramatic
+    Film Grain
+value: Film Grain
+    Fisheye Lens
+value: Fisheye Lens
+    Glamor Shot
+value: Glamor Shot
+    Golden Hour
+value: Golden Hour
+    HD
+value: HD
+    Landscape
+value: Landscape
+    Lens Flare
+value: Lens Flare
+    Macro
+value: Macro
+    Polaroid
+value: Polaroid
+    Photoshoot
+value: Photoshoot
+    Portrait
+value: Portrait
+    Studio Lighting
+value: Studio Lighting
+    Vintage
+value: Vintage
+    War Photography
+value: War Photography
+    White Balance
+value: White Balance
+    Wildlife Photography
+value: Wildlife Photography
+
 Color
   '':
     Beautiful Lighting
-Cold Color Palette
-Colorful
-Dynamic Lighting
-Electric Colors
-Infrared
-Pastel
-Neon
-Synthwave
-Warm Color Palette
 value: Beautiful Lighting
-Cold Color Palette
-Colorful
-Dynamic Lighting
-Electric Colors
-Infrared
-Pastel
-Neon
-Synthwave
-Warm Color Palette
+    Cold Color Palette
+value: Cold Color Palette
+    Colorful
+value: Colorful
+    Dynamic Lighting
+value: Dynamic Lighting
+    Electric Colors
+value: Electric Colors
+    Infrared
+value: Infrared
+    Pastel
+value: Pastel
+    Neon
+value: Neon
+    Synthwave
+value: Synthwave
+    Warm Color Palette
+value: Warm Color Palette
+
 Emotions
   '':
     Angry
-Bitter
-Disgusted
-Embarrassed
-Evil
-Excited
-Fear
-Funny
-Happy
-Horrifying
-Lonely
-Sad
-Serene
-Surprised
-Melancholic
 value: Angry
-Bitter
-Disgusted
-Embarrassed
-Evil
-Excited
-Fear
-Funny
-Happy
-Horrifying
-Lonely
-Sad
-Serene
-Surprised
-Melancholic
+    Bitter
+value: Bitter
+    Disgusted
+value: Disgusted
+    Embarrassed
+value: Embarrassed
+    Evil
+value: Evil
+    Excited
+value: Excited
+    Fear
+value: Fear
+    Funny
+value: Funny
+    Happy
+value: Happy
+    Horrifying
+value: Horrifying
+    Lonely
+value: Lonely
+    Sad
+value: Sad
+    Serene
+value: Serene
+    Surprised
+value: Surprised
+    Melancholic
+value: Melancholic
+
 Artist
   '':
     Artstation
-by Agnes Lawrence Pelton
-by Akihito Yoshida
-by Alex Grey
-by Alexander Jansson
-by Alphonse Mucha
-by Andy Warhol
-by Artgerm
-by Asaf Hanuka
-by Aubrey Beardsley
-by Banksy
-by Beeple
-by Ben Enwonwu
-by Bob Eggleton
-by Caravaggio Michelangelo Merisi
-by Caspar David Friedrich
-by Chris Foss
-by Claude Monet
-by Dan Mumford
-by David Mann
-by Diego Velázquez
-by Disney Animation Studios
-by Édouard Manet
-by Esao Andrews
-by Frida Kahlo
-by Gediminas Pranckevicius
-by Georgia O'Keeffe
-by Greg Rutkowski
-by Gustave Doré
-by Gustave Klimt
-by H.R. Giger
-by Hayao Miyazaki
-by Henri Matisse
-by HP Lovecraft
-by Ivan Shishkin
-by Jack Kirby
-by Jackson Pollock
-by James Jean
-by Jim Burns
-by Johannes Vermeer
-by John William Waterhouse
-by Katsushika Hokusai
-by Kim Tschang Yeul
-by Ko Young Hoon
-by Leonardo da Vinci
-by Lisa Frank
-by M.C Escher
-by Mahmoud Saïd
-by Makoto Shinkai
-by Marc Simonetti
-by Mark Brooks
-by Michelangelo
-by Pablo Picasso
-by Paul Klee
-by Peter Mohrbacher
-by Pierre-Auguste Renoir
-by Pixar Animation Studios
-by Rembrandt
-by Richard Dadd
-by Rossdraws
-by Salvador Dalí
-by Sam does Arts
-by Sandro Botticelli
-by Ted Nasmith
-by Ten Hundred
-by Thomas Kinkade
-by Tivadar Csontváry Kosztka
-by Victo Ngai
-by Vincent di Fate
-by Vincent van Gogh
-by Wes Anderson
-by wlop
-by Yoshitaka Amano
-by Zdzislaw Beksinski
 value: Artstation
-by Agnes Lawrence Pelton
-by Akihito Yoshida
-by Alex Grey
-by Alexander Jansson
-by Alphonse Mucha
-by Andy Warhol
-by Artgerm
-by Asaf Hanuka
-by Aubrey Beardsley
-by Banksy
-by Beeple
-by Ben Enwonwu
-by Bob Eggleton
-by Caravaggio Michelangelo Merisi
-by Caspar David Friedrich
-by Chris Foss
-by Claude Monet
-by Dan Mumford
-by David Mann
-by Diego Velázquez
-by Disney Animation Studios
-by Édouard Manet
-by Esao Andrews
-by Frida Kahlo
-by Gediminas Pranckevicius
-by Georgia O'Keeffe
-by Greg Rutkowski
-by Gustave Doré
-by Gustave Klimt
-by H.R. Giger
-by Hayao Miyazaki
-by Henri Matisse
-by HP Lovecraft
-by Ivan Shishkin
-by Jack Kirby
-by Jackson Pollock
-by James Jean
-by Jim Burns
-by Johannes Vermeer
-by John William Waterhouse
-by Katsushika Hokusai
-by Kim Tschang Yeul
-by Ko Young Hoon
-by Leonardo da Vinci
-by Lisa Frank
-by M.C Escher
-by Mahmoud Saïd
-by Makoto Shinkai
-by Marc Simonetti
-by Mark Brooks
-by Michelangelo
-by Pablo Picasso
-by Paul Klee
-by Peter Mohrbacher
-by Pierre-Auguste Renoir
-by Pixar Animation Studios
-by Rembrandt
-by Richard Dadd
-by Rossdraws
-by Salvador Dalí
-by Sam does Arts
-by Sandro Botticelli
-by Ted Nasmith
-by Ten Hundred
-by Thomas Kinkade
-by Tivadar Csontváry Kosztka
-by Victo Ngai
-by Vincent di Fate
-by Vincent van Gogh
-by Wes Anderson
-by wlop
-by Yoshitaka Amano
-by Zdzislaw Beksinski
+    by Agnes Lawrence Pelton
+value: by Agnes Lawrence Pelton
+    by Akihito Yoshida
+value: by Akihito Yoshida
+    by Alex Grey
+value: by Alex Grey
+    by Alexander Jansson
+value: by Alexander Jansson
+    by Alphonse Mucha
+value: by Alphonse Mucha
+    by Andy Warhol
+value: by Andy Warhol
+    by Artgerm
+value: by Artgerm
+    by Asaf Hanuka
+value: by Asaf Hanuka
+    by Aubrey Beardsley
+value: by Aubrey Beardsley
+    by Banksy
+value: by Banksy
+    by Beeple
+value: by Beeple
+    by Ben Enwonwu
+value: by Ben Enwonwu
+    by Bob Eggleton
+value: by Bob Eggleton
+    by Caravaggio Michelangelo Merisi
+value: by Caravaggio Michelangelo Merisi
+    by Caspar David Friedrich
+value: by Caspar David Friedrich
+    by Chris Foss
+value: by Chris Foss
+    by Claude Monet
+value: by Claude Monet
+    by Dan Mumford
+value: by Dan Mumford
+    by David Mann
+value: by David Mann
+    by Diego Velázquez
+value: by Diego Velázquez
+    by Disney Animation Studios
+value: by Disney Animation Studios
+    by Édouard Manet
+value: by Édouard Manet
+    by Esao Andrews
+value: by Esao Andrews
+    by Frida Kahlo
+value: by Frida Kahlo
+    by Gediminas Pranckevicius
+value: by Gediminas Pranckevicius
+    by Georgia O'Keeffe
+value: by Georgia O'Keeffe
+    by Greg Rutkowski
+value: by Greg Rutkowski
+    by Gustave Doré
+value: by Gustave Doré
+    by Gustave Klimt
+value: by Gustave Klimt
+    by H.R. Giger
+value: by H.R. Giger
+    by Hayao Miyazaki
+value: by Hayao Miyazaki
+    by Henri Matisse
+value: by Henri Matisse
+    by HP Lovecraft
+value: by HP Lovecraft
+    by Ivan Shishkin
+value: by Ivan Shishkin
+    by Jack Kirby
+value: by Jack Kirby
+    by Jackson Pollock
+value: by Jackson Pollock
+    by James Jean
+value: by James Jean
+    by Jim Burns
+value: by Jim Burns
+    by Johannes Vermeer
+value: by Johannes Vermeer
+    by John William Waterhouse
+value: by John William Waterhouse
+    by Katsushika Hokusai
+value: by Katsushika Hokusai
+    by Kim Tschang Yeul
+value: by Kim Tschang Yeul
+    by Ko Young Hoon
+value: by Ko Young Hoon
+    by Leonardo da Vinci
+value: by Leonardo da Vinci
+    by Lisa Frank
+value: by Lisa Frank
+    by M.C Escher
+value: by M.C Escher
+    by Mahmoud Saïd
+value: by Mahmoud Saïd
+    by Makoto Shinkai
+value: by Makoto Shinkai
+    by Marc Simonetti
+value: by Marc Simonetti
+    by Mark Brooks
+value: by Mark Brooks
+    by Michelangelo
+value: by Michelangelo
+    by Pablo Picasso
+value: by Pablo Picasso
+    by Paul Klee
+value: by Paul Klee
+    by Peter Mohrbacher
+value: by Peter Mohrbacher
+    by Pierre-Auguste Renoir
+value: by Pierre-Auguste Renoir
+    by Pixar Animation Studios
+value: by Pixar Animation Studios
+    by Rembrandt
+value: by Rembrandt
+    by Richard Dadd
+value: by Richard Dadd
+    by Rossdraws
+value: by Rossdraws
+    by Salvador Dalí
+value: by Salvador Dalí
+    by Sam does Arts
+value: by Sam does Arts
+    by Sandro Botticelli
+value: by Sandro Botticelli
+    by Ted Nasmith
+value: by Ted Nasmith
+    by Ten Hundred
+value: by Ten Hundred
+    by Thomas Kinkade
+value: by Thomas Kinkade
+    by Tivadar Csontváry Kosztka
+value: by Tivadar Csontváry Kosztka
+    by Victo Ngai
+value: by Victo Ngai
+    by Vincent di Fate
+value: by Vincent di Fate
+    by Vincent van Gogh
+value: by Vincent van Gogh
+    by Wes Anderson
+value: by Wes Anderson
+    by wlop
+value: by wlop
+    by Yoshitaka Amano
+value: by Yoshitaka Amano
+    by Zdzislaw Beksinski
+value: by Zdzislaw Beksinski
+
 CGI Software
   '':
     3D Model
-3D Sculpt
-3Ds Max Model
-Blender Model
-Cinema4d Model
-Maya Model
-Unreal Engine
-Zbrush Sculpt
 value: 3D Model
-3D Sculpt
-3Ds Max Model
-Blender Model
-Cinema4d Model
-Maya Model
-Unreal Engine
-Zbrush Sculpt
+    3D Sculpt
+value: 3D Sculpt
+    3Ds Max Model
+value: 3Ds Max Model
+    Blender Model
+value: Blender Model
+    Cinema4d Model
+value: Cinema4d Model
+    Maya Model
+value: Maya Model
+    Unreal Engine
+value: Unreal Engine
+    Zbrush Sculpt
+value: Zbrush Sculpt
+
 CGI Rendering
   '':
     3D Render
-Corona Render
-Creature Design
-Cycles Render
-Detailed Render
-Environment Design
-Intricate Environment
-LSD Render
-Octane Render
-PBR
-Glass Caustics
-Global Illumination
-Subsurface Scattering
 value: 3D Render
-Corona Render
-Creature Design
-Cycles Render
-Detailed Render
-Environment Design
-Intricate Environment
-LSD Render
-Octane Render
-PBR
-Glass Caustics
-Global Illumination
-Subsurface Scattering
+    Corona Render
+value: Corona Render
+    Creature Design
+value: Creature Design
+    Cycles Render
+value: Cycles Render
+    Detailed Render
+value: Detailed Render
+    Environment Design
+value: Environment Design
+    Intricate Environment
+value: Intricate Environment
+    LSD Render
+value: LSD Render
+    Octane Render
+value: Octane Render
+    PBR
+value: PBR
+    Glass Caustics
+value: Glass Caustics
+    Global Illumination
+value: Global Illumination
+    Subsurface Scattering
+value: Subsurface Scattering
+
