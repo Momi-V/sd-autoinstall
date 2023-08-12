@@ -1,442 +1,442 @@
 Drawing Style:
   Drawing Style:
     Cel Shading:
-    value: "Cel Shading"
+      value: "Cel Shading"
     Children's Drawing:
-    value: "Children's Drawing"
+      value: "Children's Drawing"
     Crosshatch:
-    value: "Crosshatch"
+      value: "Crosshatch"
     Detailed and Intricate:
-    value: "Detailed and Intricate"
+      value: "Detailed and Intricate"
     Doodle:
-    value: "Doodle"
+      value: "Doodle"
     Dot Art:
-    value: "Dot Art"
+      value: "Dot Art"
     Line Art:
-    value: "Line Art"
+      value: "Line Art"
     Sketch:
-    value: "Sketch"
+      value: "Sketch"
 
 Visual Style:
   Visual Style:
     2D:
-    value: "2D"
+      value: "2D"
     8-Bit:
-    value: "8-Bit"
+      value: "8-Bit"
     16-Bit:
-    value: "16-Bit"
+      value: "16-Bit"
     Anaglyph:
-    value: "Anaglyph"
+      value: "Anaglyph"
     Anime:
-    value: "Anime"
+      value: "Anime"
     Art Nouveau:
-    value: "Art Nouveau"
+      value: "Art Nouveau"
     Bauhaus:
-    value: "Bauhaus"
+      value: "Bauhaus"
     Baroque:
-    value: "Baroque"
+      value: "Baroque"
     CGI:
-    value: "CGI"
+      value: "CGI"
     Cartoon:
-    value: "Cartoon"
+      value: "Cartoon"
     Comic Book:
-    value: "Comic Book"
+      value: "Comic Book"
     Concept Art:
-    value: "Concept Art"
+      value: "Concept Art"
     Constructivist:
-    value: "Constructivist"
+      value: "Constructivist"
     Cubist:
-    value: "Cubist"
+      value: "Cubist"
     Digital Art:
-    value: "Digital Art"
+      value: "Digital Art"
     Dadaist:
-    value: "Dadaist"
+      value: "Dadaist"
     Expressionist:
-    value: "Expressionist"
+      value: "Expressionist"
     Fantasy:
-    value: "Fantasy"
+      value: "Fantasy"
     Fauvist:
-    value: "Fauvist"
+      value: "Fauvist"
     Figurative:
-    value: "Figurative"
+      value: "Figurative"
     Graphic Novel:
-    value: "Graphic Novel"
+      value: "Graphic Novel"
     Geometric:
-    value: "Geometric"
+      value: "Geometric"
     Hard Edge Painting:
-    value: "Hard Edge Painting"
+      value: "Hard Edge Painting"
     Hydrodipped:
-    value: "Hydrodipped"
+      value: "Hydrodipped"
     Impressionistic:
-    value: "Impressionistic"
+      value: "Impressionistic"
     Lithography:
-    value: "Lithography"
+      value: "Lithography"
     Manga:
-    value: "Manga"
+      value: "Manga"
     Minimalist:
-    value: "Minimalist"
+      value: "Minimalist"
     Modern Art:
-    value: "Modern Art"
+      value: "Modern Art"
     Mosaic:
-    value: "Mosaic"
+      value: "Mosaic"
     Mural:
-    value: "Mural"
+      value: "Mural"
     Naive:
-    value: "Naive"
+      value: "Naive"
     Neoclassical:
-    value: "Neoclassical"
+      value: "Neoclassical"
     Photo:
-    value: "Photo"
+      value: "Photo"
     Realistic:
-    value: "Realistic"
+      value: "Realistic"
     Rococo:
-    value: "Rococo"
+      value: "Rococo"
     Romantic:
-    value: "Romantic"
+      value: "Romantic"
     Street Art:
-    value: "Street Art"
+      value: "Street Art"
     Symbolist:
-    value: "Symbolist"
+      value: "Symbolist"
     Stuckist:
-    value: "Stuckist"
+      value: "Stuckist"
     Surrealist:
-    value: "Surrealist"
+      value: "Surrealist"
     Visual Novel:
-    value: "Visual Novel"
+      value: "Visual Novel"
     Watercolor:
-    value: "Watercolor"
+      value: "Watercolor"
 
 Pen:
   Pen:
     Chalk:
-    value: "Chalk"
+      value: "Chalk"
     Colored Pencil:
-    value: "Colored Pencil"
+      value: "Colored Pencil"
     Graphite:
-    value: "Graphite"
+      value: "Graphite"
     Ink:
-    value: "Ink"
+      value: "Ink"
     Oil Paint:
-    value: "Oil Paint"
+      value: "Oil Paint"
     Pastel Art:
-    value: "Pastel Art"
+      value: "Pastel Art"
 
 Carving and Etching:
   Carving and Etching:
     etching:
-    value: "etching"
+      value: "etching"
     Linocut:
-    value: "Linocut"
+      value: "Linocut"
     Paper Model:
-    value: "Paper Model"
+      value: "Paper Model"
     Paper-Mache:
-    value: "Paper-Mache"
+      value: "Paper-Mache"
     Papercutting:
-    value: "Papercutting"
+      value: "Papercutting"
     Pyrography:
-    value: "Pyrography"
+      value: "Pyrography"
     Wood-Carving:
-    value: "Wood-Carving"
+      value: "Wood-Carving"
 
 Camera:
   Camera:
     Aerial View:
-    value: "Aerial View"
+      value: "Aerial View"
     Canon50:
-    value: "Canon50"
+      value: "Canon50"
     Cinematic:
-    value: "Cinematic"
+      value: "Cinematic"
     Close-up:
-    value: "Close-up"
+      value: "Close-up"
     Color Grading:
-    value: "Color Grading"
+      value: "Color Grading"
     Dramatic:
-    value: "Dramatic"
+      value: "Dramatic"
     Film Grain:
-    value: "Film Grain"
+      value: "Film Grain"
     Fisheye Lens:
-    value: "Fisheye Lens"
+      value: "Fisheye Lens"
     Glamor Shot:
-    value: "Glamor Shot"
+      value: "Glamor Shot"
     Golden Hour:
-    value: "Golden Hour"
+      value: "Golden Hour"
     HD:
-    value: "HD"
+      value: "HD"
     Landscape:
-    value: "Landscape"
+      value: "Landscape"
     Lens Flare:
-    value: "Lens Flare"
+      value: "Lens Flare"
     Macro:
-    value: "Macro"
+      value: "Macro"
     Polaroid:
-    value: "Polaroid"
+      value: "Polaroid"
     Photoshoot:
-    value: "Photoshoot"
+      value: "Photoshoot"
     Portrait:
-    value: "Portrait"
+      value: "Portrait"
     Studio Lighting:
-    value: "Studio Lighting"
+      value: "Studio Lighting"
     Vintage:
-    value: "Vintage"
+      value: "Vintage"
     War Photography:
-    value: "War Photography"
+      value: "War Photography"
     White Balance:
-    value: "White Balance"
+      value: "White Balance"
     Wildlife Photography:
-    value: "Wildlife Photography"
+      value: "Wildlife Photography"
 
 Color:
   Color:
     Beautiful Lighting:
-    value: "Beautiful Lighting"
+      value: "Beautiful Lighting"
     Cold Color Palette:
-    value: "Cold Color Palette"
+      value: "Cold Color Palette"
     Colorful:
-    value: "Colorful"
+      value: "Colorful"
     Dynamic Lighting:
-    value: "Dynamic Lighting"
+      value: "Dynamic Lighting"
     Electric Colors:
-    value: "Electric Colors"
+      value: "Electric Colors"
     Infrared:
-    value: "Infrared"
+      value: "Infrared"
     Pastel:
-    value: "Pastel"
+      value: "Pastel"
     Neon:
-    value: "Neon"
+      value: "Neon"
     Synthwave:
-    value: "Synthwave"
+      value: "Synthwave"
     Warm Color Palette:
-    value: "Warm Color Palette"
+      value: "Warm Color Palette"
 
 Emotions:
   Emotions:
     Angry:
-    value: "Angry"
+      value: "Angry"
     Bitter:
-    value: "Bitter"
+      value: "Bitter"
     Disgusted:
-    value: "Disgusted"
+      value: "Disgusted"
     Embarrassed:
-    value: "Embarrassed"
+      value: "Embarrassed"
     Evil:
-    value: "Evil"
+      value: "Evil"
     Excited:
-    value: "Excited"
+      value: "Excited"
     Fear:
-    value: "Fear"
+      value: "Fear"
     Funny:
-    value: "Funny"
+      value: "Funny"
     Happy:
-    value: "Happy"
+      value: "Happy"
     Horrifying:
-    value: "Horrifying"
+      value: "Horrifying"
     Lonely:
-    value: "Lonely"
+      value: "Lonely"
     Sad:
-    value: "Sad"
+      value: "Sad"
     Serene:
-    value: "Serene"
+      value: "Serene"
     Surprised:
-    value: "Surprised"
+      value: "Surprised"
     Melancholic:
-    value: "Melancholic"
+      value: "Melancholic"
 
 Artist:
   Artist:
     Artstation:
-    value: "Artstation"
+      value: "Artstation"
     by Agnes Lawrence Pelton:
-    value: "by Agnes Lawrence Pelton"
+      value: "by Agnes Lawrence Pelton"
     by Akihito Yoshida:
-    value: "by Akihito Yoshida"
+      value: "by Akihito Yoshida"
     by Alex Grey:
-    value: "by Alex Grey"
+      value: "by Alex Grey"
     by Alexander Jansson:
-    value: "by Alexander Jansson"
+      value: "by Alexander Jansson"
     by Alphonse Mucha:
-    value: "by Alphonse Mucha"
+      value: "by Alphonse Mucha"
     by Andy Warhol:
-    value: "by Andy Warhol"
+      value: "by Andy Warhol"
     by Artgerm:
-    value: "by Artgerm"
+      value: "by Artgerm"
     by Asaf Hanuka:
-    value: "by Asaf Hanuka"
+      value: "by Asaf Hanuka"
     by Aubrey Beardsley:
-    value: "by Aubrey Beardsley"
+      value: "by Aubrey Beardsley"
     by Banksy:
-    value: "by Banksy"
+      value: "by Banksy"
     by Beeple:
-    value: "by Beeple"
+      value: "by Beeple"
     by Ben Enwonwu:
-    value: "by Ben Enwonwu"
+      value: "by Ben Enwonwu"
     by Bob Eggleton:
-    value: "by Bob Eggleton"
+      value: "by Bob Eggleton"
     by Caravaggio Michelangelo Merisi:
-    value: "by Caravaggio Michelangelo Merisi"
+      value: "by Caravaggio Michelangelo Merisi"
     by Caspar David Friedrich:
-    value: "by Caspar David Friedrich"
+      value: "by Caspar David Friedrich"
     by Chris Foss:
-    value: "by Chris Foss"
+      value: "by Chris Foss"
     by Claude Monet:
-    value: "by Claude Monet"
+      value: "by Claude Monet"
     by Dan Mumford:
-    value: "by Dan Mumford"
+      value: "by Dan Mumford"
     by David Mann:
-    value: "by David Mann"
+      value: "by David Mann"
     by Diego Velázquez:
-    value: "by Diego Velázquez"
+      value: "by Diego Velázquez"
     by Disney Animation Studios:
-    value: "by Disney Animation Studios"
+      value: "by Disney Animation Studios"
     by Édouard Manet:
-    value: "by Édouard Manet"
+      value: "by Édouard Manet"
     by Esao Andrews:
-    value: "by Esao Andrews"
+      value: "by Esao Andrews"
     by Frida Kahlo:
-    value: "by Frida Kahlo"
+      value: "by Frida Kahlo"
     by Gediminas Pranckevicius:
-    value: "by Gediminas Pranckevicius"
+      value: "by Gediminas Pranckevicius"
     by Georgia O'Keeffe:
-    value: "by Georgia O'Keeffe"
+      value: "by Georgia O'Keeffe"
     by Greg Rutkowski:
-    value: "by Greg Rutkowski"
+      value: "by Greg Rutkowski"
     by Gustave Doré:
-    value: "by Gustave Doré"
+      value: "by Gustave Doré"
     by Gustave Klimt:
-    value: "by Gustave Klimt"
+      value: "by Gustave Klimt"
     by H.R. Giger:
-    value: "by H.R. Giger"
+      value: "by H.R. Giger"
     by Hayao Miyazaki:
-    value: "by Hayao Miyazaki"
+      value: "by Hayao Miyazaki"
     by Henri Matisse:
-    value: "by Henri Matisse"
+      value: "by Henri Matisse"
     by HP Lovecraft:
-    value: "by HP Lovecraft"
+      value: "by HP Lovecraft"
     by Ivan Shishkin:
-    value: "by Ivan Shishkin"
+      value: "by Ivan Shishkin"
     by Jack Kirby:
-    value: "by Jack Kirby"
+      value: "by Jack Kirby"
     by Jackson Pollock:
-    value: "by Jackson Pollock"
+      value: "by Jackson Pollock"
     by James Jean:
-    value: "by James Jean"
+      value: "by James Jean"
     by Jim Burns:
-    value: "by Jim Burns"
+      value: "by Jim Burns"
     by Johannes Vermeer:
-    value: "by Johannes Vermeer"
+      value: "by Johannes Vermeer"
     by John William Waterhouse:
-    value: "by John William Waterhouse"
+      value: "by John William Waterhouse"
     by Katsushika Hokusai:
-    value: "by Katsushika Hokusai"
+      value: "by Katsushika Hokusai"
     by Kim Tschang Yeul:
-    value: "by Kim Tschang Yeul"
+      value: "by Kim Tschang Yeul"
     by Ko Young Hoon:
-    value: "by Ko Young Hoon"
+      value: "by Ko Young Hoon"
     by Leonardo da Vinci:
-    value: "by Leonardo da Vinci"
+      value: "by Leonardo da Vinci"
     by Lisa Frank:
-    value: "by Lisa Frank"
+      value: "by Lisa Frank"
     by M.C Escher:
-    value: "by M.C Escher"
+      value: "by M.C Escher"
     by Mahmoud Saïd:
-    value: "by Mahmoud Saïd"
+      value: "by Mahmoud Saïd"
     by Makoto Shinkai:
-    value: "by Makoto Shinkai"
+      value: "by Makoto Shinkai"
     by Marc Simonetti:
-    value: "by Marc Simonetti"
+      value: "by Marc Simonetti"
     by Mark Brooks:
-    value: "by Mark Brooks"
+      value: "by Mark Brooks"
     by Michelangelo:
-    value: "by Michelangelo"
+      value: "by Michelangelo"
     by Pablo Picasso:
-    value: "by Pablo Picasso"
+      value: "by Pablo Picasso"
     by Paul Klee:
-    value: "by Paul Klee"
+      value: "by Paul Klee"
     by Peter Mohrbacher:
-    value: "by Peter Mohrbacher"
+      value: "by Peter Mohrbacher"
     by Pierre-Auguste Renoir:
-    value: "by Pierre-Auguste Renoir"
+      value: "by Pierre-Auguste Renoir"
     by Pixar Animation Studios:
-    value: "by Pixar Animation Studios"
+      value: "by Pixar Animation Studios"
     by Rembrandt:
-    value: "by Rembrandt"
+      value: "by Rembrandt"
     by Richard Dadd:
-    value: "by Richard Dadd"
+      value: "by Richard Dadd"
     by Rossdraws:
-    value: "by Rossdraws"
+      value: "by Rossdraws"
     by Salvador Dalí:
-    value: "by Salvador Dalí"
+      value: "by Salvador Dalí"
     by Sam does Arts:
-    value: "by Sam does Arts"
+      value: "by Sam does Arts"
     by Sandro Botticelli:
-    value: "by Sandro Botticelli"
+      value: "by Sandro Botticelli"
     by Ted Nasmith:
-    value: "by Ted Nasmith"
+      value: "by Ted Nasmith"
     by Ten Hundred:
-    value: "by Ten Hundred"
+      value: "by Ten Hundred"
     by Thomas Kinkade:
-    value: "by Thomas Kinkade"
+      value: "by Thomas Kinkade"
     by Tivadar Csontváry Kosztka:
-    value: "by Tivadar Csontváry Kosztka"
+      value: "by Tivadar Csontváry Kosztka"
     by Victo Ngai:
-    value: "by Victo Ngai"
+      value: "by Victo Ngai"
     by Vincent di Fate:
-    value: "by Vincent di Fate"
+      value: "by Vincent di Fate"
     by Vincent van Gogh:
-    value: "by Vincent van Gogh"
+      value: "by Vincent van Gogh"
     by Wes Anderson:
-    value: "by Wes Anderson"
+      value: "by Wes Anderson"
     by wlop:
-    value: "by wlop"
+      value: "by wlop"
     by Yoshitaka Amano:
-    value: "by Yoshitaka Amano"
+      value: "by Yoshitaka Amano"
     by Zdzislaw Beksinski:
-    value: "by Zdzislaw Beksinski"
+      value: "by Zdzislaw Beksinski"
 
 CGI Software:
   CGI Software:
     3D Model:
-    value: "3D Model"
+      value: "3D Model"
     3D Sculpt:
-    value: "3D Sculpt"
+      value: "3D Sculpt"
     3Ds Max Model:
-    value: "3Ds Max Model"
+      value: "3Ds Max Model"
     Blender Model:
-    value: "Blender Model"
+      value: "Blender Model"
     Cinema4d Model:
-    value: "Cinema4d Model"
+      value: "Cinema4d Model"
     Maya Model:
-    value: "Maya Model"
+      value: "Maya Model"
     Unreal Engine:
-    value: "Unreal Engine"
+      value: "Unreal Engine"
     Zbrush Sculpt:
-    value: "Zbrush Sculpt"
+      value: "Zbrush Sculpt"
 
 CGI Rendering:
   CGI Rendering:
     3D Render:
-    value: "3D Render"
+      value: "3D Render"
     Corona Render:
-    value: "Corona Render"
+      value: "Corona Render"
     Creature Design:
-    value: "Creature Design"
+      value: "Creature Design"
     Cycles Render:
-    value: "Cycles Render"
+      value: "Cycles Render"
     Detailed Render:
-    value: "Detailed Render"
+      value: "Detailed Render"
     Environment Design:
-    value: "Environment Design"
+      value: "Environment Design"
     Intricate Environment:
-    value: "Intricate Environment"
+      value: "Intricate Environment"
     LSD Render:
-    value: "LSD Render"
+      value: "LSD Render"
     Octane Render:
-    value: "Octane Render"
+      value: "Octane Render"
     PBR:
-    value: "PBR"
+      value: "PBR"
     Glass Caustics:
-    value: "Glass Caustics"
+      value: "Glass Caustics"
     Global Illumination:
-    value: "Global Illumination"
+      value: "Global Illumination"
     Subsurface Scattering:
-    value: "Subsurface Scattering"
+      value: "Subsurface Scattering"
 
