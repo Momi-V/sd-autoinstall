@@ -1,0 +1,25 @@
+landscape_0: 
+  value: "beautiful landscape"
+  negative: "person, watermark"
+landscape_1: 
+  value: "beautiful landscape"
+  negative: "person, watermark"
+landscape_2: 
+  value: "beautiful landscape"
+  negative: "person, watermark"
+landscape_3: 
+  value: "beautiful landscape"
+  negative: "person, watermark"
+
+face_0: 
+  value: "beautiful girl"
+  negative: "ugly, watermark"
+face_1: 
+  value: "beautiful girl"
+  negative: "ugly, watermark"
+face_2: 
+  value: "beautiful girl"
+  negative: "ugly, watermark"
+face_3: 
+  value: "beautiful girl"
+  negative: "ugly, watermark"
