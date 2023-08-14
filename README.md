@@ -83,8 +83,8 @@ cd ..
 ### Start:
 ```
 cd ..
-#screen -dmS server bash -c 'python_cmd=python3.10 ./automatic/webui.sh --use-cpu all --no-half --skip-torch-cuda-test' #no GPU Version
-screen -dmS server bash -c 'python_cmd=python3.10 ./automatic/webui.sh'
+#screen -dmS server bash -c 'python_cmd=python3.10 ./automatic/webui.sh --use-cpu all --no-half --skip-torch-cuda-test --cors-origins=http://localhost:5173 --theme dark' #no GPU Version
+screen -dmS server bash -c 'python_cmd=python3.10 ./automatic/webui.sh --cors-origins=http://localhost:5173 --theme dark'
 ```
 
 ### Get_Modifiers:
