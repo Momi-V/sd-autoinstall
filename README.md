@@ -55,8 +55,8 @@ cd automatic
 
 ### Download:
 ```
-curl -O https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt
-curl -O https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt
+curl -LO https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt
+curl -LO https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt
 mkdir models/Stable-diffusion/
 mkdir models/VAE/
 mv v1-5-pruned-emaonly.ckpt models/Stable-diffusion/
@@ -65,8 +65,8 @@ mv vae-ft-mse-840000-ema-pruned.ckpt models/VAE/
 
 #### Download_Alt:
 ```
-#curl -O https://huggingface.co/stabilityai/stable-diffusion-2-1/blob/main/v2-1_768-ema-pruned.safetensors
-#curl -O https://raw.githubusercontent.com/Stability-AI/stablediffusion/main/configs/stable-diffusion/v2-inference-v.yaml
+#curl -LO https://huggingface.co/stabilityai/stable-diffusion-2-1/blob/main/v2-1_768-ema-pruned.safetensors
+#curl -LO https://raw.githubusercontent.com/Stability-AI/stablediffusion/main/configs/stable-diffusion/v2-inference-v.yaml
 #mv v2-1_768-ema-pruned.safetensors models/Stable-diffusion/
 #mv v2-inference-v.yaml models/Stable-diffusion/v2-1_768-ema-pruned.yaml
 ```
@@ -89,7 +89,7 @@ screen -dmS server bash -c 'python_cmd=python3.10 ./automatic/webui.sh --cors-or
 
 ### Get_Modifiers:
 ```
-VAR="$(curl https://github.com/cmdr2/stable-diffusion-ui/raw/main/ui/modifiers.json)"
+VAR="$(curl https://raw.githubusercontent.com/easydiffusion/easydiffusion/main/ui/modifiers.json)"
 IFS=$'\n'
 for c in $(echo "$VAR" | jq '.[].category'); do
   { echo "$VAR" | jq ".[] | select (.category==$c).modifiers[].modifier" | sed 's+"++g'; } > "$(echo $c | sed 's+"++g')".txt

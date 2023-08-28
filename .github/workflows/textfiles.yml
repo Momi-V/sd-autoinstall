@@ -27,7 +27,7 @@ jobs:
           IFS=$'\n'
           cd inspiration
           rm -rf `ls | grep -v 'avatars.yaml'`
-          VAR="$(curl https://github.com/cmdr2/stable-diffusion-ui/raw/main/ui/modifiers.json)"
+          VAR="$(curl https://raw.githubusercontent.com/easydiffusion/easydiffusion/main/ui/modifiers.json)"
           for c in $(echo "$VAR" | jq '.[].category'); do
             words=$(echo "$VAR" | jq ".[] | select (.category==$c).modifiers[].modifier" | sed 's+"++g')
             category="$(echo $c | sed 's+"++g')"
