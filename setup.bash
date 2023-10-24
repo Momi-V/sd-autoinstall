@@ -1,6 +1,6 @@
 #!/bin/bash
 
-zypper in -y caddy curl git libgthread-2_0-0 Mesa python310
+zypper in -y caddy curl git libgthread-2_0-0 Mesa python310 screen
 
 firewall-cmd --permanent --add-service=ssh --add-service=http --add-service=https
 systemctl restart firewalld
