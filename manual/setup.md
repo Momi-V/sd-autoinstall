@@ -1,6 +1,6 @@
 ### Dependencies:
 ```
-zypper in -y caddy curl git libgthread-2_0-0 Mesa python310
+zypper in -y caddy curl git libgthread-2_0-0 Mesa python310 screen
 ```
 
 ### Firewall:
