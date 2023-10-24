@@ -13,6 +13,11 @@ echo 'diffusion' > /etc/hostname
 
 zypper in -y caddy cifs-utils cron curl git libgthread-2_0-0 Mesa python310 zram-generator
 
+zypper --n addrepo https://developer.download.nvidia.com/compute/cuda/repos/opensuse15/x86_64/cuda-opensuse15.repo
+zypper --gpg-auto-import-keys refresh
+zypper install -ly cuda
+usermod -a -G video admin
+
 cat <<'EOL' > /etc/systemd/zram-generator.conf
 [zram0]
 
