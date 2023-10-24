@@ -39,5 +39,6 @@ $hname, $domain {
   reverse_proxy localhost:7860
 }
 EOL
+
 cat /etc/caddy/Caddyfile
 systemctl restart caddy
