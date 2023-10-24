@@ -12,7 +12,6 @@ echo 'admin:HASHchangeME' | chpasswd -e
 echo 'diffusion' > /etc/hostname
 
 zypper in -y caddy cifs-utils cron curl git libgthread-2_0-0 Mesa python310 zram-generator
-systemctl enable caddy
 
 cat <<'EOL' > /etc/systemd/zram-generator.conf
 [zram0]
@@ -21,26 +20,9 @@ zram-size = ram
 compression-algorithm = zstd
 EOL
 
-cat <<'EOF' > /root/setup.bash
-uname=user
-set +H
-phash=$(caddy hash-password --plaintext password)
-hname=diffusion
-domain=diffusion.local
+cd /home/admin
+curl -O https://raw.githubusercontent.com/HPPinata/sd-autoinstall/main/setup.bash
+chmod +x
 
-cat <<EOL > /etc/caddy/Caddyfile
-{
-  local_certs
-}
-
-$hname, $domain {
-  basicauth * {
-    $uname $phash
-  }
-  reverse_proxy localhost:7860
-}
-EOL
-cat /etc/caddy/Caddyfile
-
-systemctl restart caddy
-EOF
+curl -O https://raw.githubusercontent.com/HPPinata/sd-autoinstall/main/automatic.bash
+chown admin:admin
