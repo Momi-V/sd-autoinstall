@@ -4,7 +4,7 @@ Install on OpenSUSE-Tumbleweed
 ## As root:
 ### Automated:
 ```
-curl -O https://raw.githubusercontent.com/HPPinata/sd-autoinstall/main/setup.bash
+curl -O https://raw.githubusercontent.com/HPPinata/sd-autoinstall/main/scripts/setup.bash
 chmod +x
 ./setup.bash
 ```
@@ -15,7 +15,7 @@ https://github.com/HPPinata/sd-autoinstall/blob/main/manual/setup.md
 ## As user:
 ### Automated:
 ```
-curl -O https://raw.githubusercontent.com/HPPinata/sd-autoinstall/main/automatic.bash
+curl -O https://raw.githubusercontent.com/HPPinata/sd-autoinstall/main/scripts/automatic.bash
 bash setup.bash
 ```
 
