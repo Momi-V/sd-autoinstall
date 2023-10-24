@@ -17,12 +17,12 @@ set-PASS () {
   done
   phash=$(caddy hash-password --plaintext $passvar)
 }
-read -sp 'Username: ' uname
+read -p 'Username: ' uname
 echo
 set-PASS
-read -sp 'Hostname: ' hname
+read -p 'Hostname: ' hname
 echo
-read -sp 'Domain: ' domain
+read -p 'Domain: ' domain
 echo
 
 
