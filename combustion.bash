@@ -27,7 +27,7 @@ EOL
 
 cd /home/admin
 curl -O https://raw.githubusercontent.com/HPPinata/sd-autoinstall/main/setup.bash
-chmod +x
+chmod +x setup.bash
 
 curl -O https://raw.githubusercontent.com/HPPinata/sd-autoinstall/main/automatic.bash
-chown admin:admin
+chown admin:admin automatic.bash
