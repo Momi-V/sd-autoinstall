@@ -18,6 +18,8 @@ zypper --gpg-auto-import-keys refresh
 zypper install -ly nvidia-drivers-G06
 usermod -a -G video admin
 
+sed -i "s+SELINUX=enforcing+SELINUX=permissive+g" /etc/selinux/config
+
 cat <<'EOL' > /etc/systemd/zram-generator.conf
 [zram0]
 
