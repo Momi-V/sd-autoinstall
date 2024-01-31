@@ -32,11 +32,18 @@ cat <<EOL > /etc/caddy/Caddyfile
   local_certs
 }
 
-$hname, $domain {
+$hname, diffusion.$domain {
   basicauth * {
     $uname $phash
   }
   reverse_proxy localhost:7860
+}
+
+focus.$domain {
+  basicauth * {
+    $uname $phash
+  }
+  reverse_proxy localhost:7865
 }
 EOL
 
