@@ -11,7 +11,7 @@ useradd admin
 echo 'admin:HASHchangeME' | chpasswd -e
 echo 'diffusion' > /etc/hostname
 
-zypper in -y caddy cifs-utils cron curl git libgthread-2_0-0 Mesa python310 screen zram-generator
+zypper in -y btop caddy cifs-utils cron curl git libgthread-2_0-0 Mesa nano python310 screen zram-generator
 
 zypper -n addrepo https://download.nvidia.com/opensuse/tumbleweed NVIDIA
 zypper --gpg-auto-import-keys refresh
