@@ -31,3 +31,14 @@ deactivate
 
 ### Start:
 screen -dmS focus bash -c 'cd Fooocus; source fooocus_env/bin/activate; pip install -r requirements_versions.txt; python entry_with_update.py'
+
+### Cron:
+cat <<'EOL' | crontab -
+SHELL=/bin/bash
+BASH_ENV=/etc/profile
+
+@reboot screen -dmS server bash -c 'PYTHON=python3.10 ./automatic/webui.sh --cors-origins=http://localhost:5173 --theme dark'
+@reboot screen -dmS focus bash -c 'cd Fooocus; source fooocus_env/bin/activate; pip install -r requirements_versions.txt; python entry_with_update.py'
+EOL
+crontab -l
+
