@@ -32,7 +32,7 @@ Optional:
 ```
 cd automatic/extensions
 #git clone https://github.com/AlUlkesh/stable-diffusion-webui-images-browser.git #included in vladmandic
-git clone https://github.com/HPPinata/PromptGallery-stable-diffusion-webui.git
+git clone https://github.com/Momi-V/PromptGallery-stable-diffusion-webui.git
 git clone https://github.com/Gerschel/sd_web_ui_preset_utils.git
 cd ../..
 ```

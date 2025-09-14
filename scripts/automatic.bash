@@ -15,7 +15,7 @@ cd ..
 
 ### Extensions:
 cd automatic/extensions
-git clone https://github.com/HPPinata/PromptGallery-stable-diffusion-webui.git
+git clone https://github.com/Momi-V/PromptGallery-stable-diffusion-webui.git
 cd ../..
 
 ### Start:

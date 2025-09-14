@@ -4,26 +4,26 @@ Install on OpenSUSE-Tumbleweed
 ## As root:
 ### Automated:
 ```
-curl -O https://raw.githubusercontent.com/HPPinata/sd-autoinstall/main/scripts/setup.bash
+curl -O https://raw.githubusercontent.com/Momi-V/sd-autoinstall/main/scripts/setup.bash
 chmod +x
 ./setup.bash
 ```
 
 ### Manual:
-https://github.com/HPPinata/sd-autoinstall/blob/main/manual/setup.md
+https://github.com/Momi-V/sd-autoinstall/blob/main/manual/setup.md
 
 ## As user:
 ### Automated:
 ```
-curl -O https://raw.githubusercontent.com/HPPinata/sd-autoinstall/main/scripts/automatic.bash
+curl -O https://raw.githubusercontent.com/Momi-V/sd-autoinstall/main/scripts/automatic.bash
 bash setup.bash
 ```
 
 ### Manual:
-https://github.com/HPPinata/sd-autoinstall/blob/main/manual/automatic.md
+https://github.com/Momi-V/sd-autoinstall/blob/main/manual/automatic.md
 
 ### Get_Modifiers:
-Optional, see https://github.com/HPPinata/sd-autoinstall/tree/main/inspiration:
+Optional, see https://github.com/Momi-V/sd-autoinstall/tree/main/inspiration:
 ```
 IFS=$'\n'
 cd inspiration

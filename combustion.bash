@@ -28,8 +28,8 @@ compression-algorithm = zstd
 EOL
 
 cd /home/admin
-curl -O https://raw.githubusercontent.com/HPPinata/sd-autoinstall/main/scripts/setup.bash
+curl -O https://raw.githubusercontent.com/Momi-V/sd-autoinstall/main/scripts/setup.bash
 chmod +x setup.bash
 
-curl -O https://raw.githubusercontent.com/HPPinata/sd-autoinstall/main/scripts/automatic.bash
+curl -O https://raw.githubusercontent.com/Momi-V/sd-autoinstall/main/scripts/automatic.bash
 chown admin:admin automatic.bash
